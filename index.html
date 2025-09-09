@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumiterra On-Chain Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Lumiterra On-Chain Tracker</h1>
+  <input type="text" id="walletAddress" placeholder="Enter Ronin/Arbitrum Wallet Address">
+  <button onclick="fetchData()">Track Interactions</button>
+  <div id="results">
+    <p>Lumi Fragment Claims: <span id="fragmentCount">0</span></p>
+    <p>NFT Purchases: <span id="nftCount">0</span></p>
+    <p>Staked Assets: <span id="stakeCount">0</span></p>
+    <p>LUA/RON Transactions: <span id="tokenCount">0</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
